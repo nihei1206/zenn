@@ -28,4 +28,15 @@ OSSとして、提供されている[chatbot-ui](https://github.com/mckaywrigley
 Node.js v18.16.1
 ```
 
-nvmを使って、v18を入れるだけですね。
+## 手順
+1. nvmを使って、v18を入れます。
+( 他のバージョンでもいけると思いますが、記載なかったので、18をいれました。 )
+2. [chatbot-ui](https://github.com/mckaywrigley/chatbot-ui)をローカル環境にcloneします。
+3. ルートに、環境変数のファイルを設置します。
+```
+OPENAI_API_KEY=xxxx
+OPENAI_ORGANIZATION=org-xxxxx
+DEFAULT_MODEL=GPT3.5-turbo
+```
+4. npm run devをすると起動します。
+5. ローカルでの動作が確認できたら、Vercelを使って、デプロイしましょう！
