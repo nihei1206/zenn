@@ -51,18 +51,20 @@ DEFAULT_MODEL=GPT3.5-turbo
 OPENAI_ORGANIZATIONに、請求先が紐づきますので、複数の組織に所属しているアカウントで行う方は、OPENAI_ORGANIZATIONを[こちら](https://platform.openai.com/account/org-settings)から取得して、設定してください。
 :::
 
-4. npm run devをして、localhost:3000にアクセスすると、起動します。
-5. ローカルでの動作が確認できたら、Vercelを使って、デプロイしましょう！
-6. [Vercel](https://vercel.com/)にアクセス
-7. この画面で、Create New Projectをクリック
+5. npm run devをして、localhost:3000にアクセスすると、起動します。
+6. ローカルでの動作が確認できたら、Vercelを使って、デプロイしましょう！
+7. [Vercel](https://vercel.com/)にアクセス
+8. この画面で、Create New Projectをクリック
 ![](https://storage.googleapis.com/zenn-user-upload/9e6eef21c00a-20230721.png)
-8. この画面で、Githubアカウントと接続し、デプロイするレポジトリを選択。importをクリック
+9. この画面で、Githubアカウントと接続し、デプロイするレポジトリを選択。importをクリック
 ![](https://storage.googleapis.com/zenn-user-upload/b7e0d10ce1f0-20230721.png)
-9. この画面になって、自動でデプロイ作業が始まるので、終わるのを待ちます。
+10. 下の方にいき、Environment Variablesに、環境変数を入力し、Deployみたいなボタンを押せば,,,
+![](https://storage.googleapis.com/zenn-user-upload/9d570e49a6cf-20230721.png)
+11. この画面にいき,自動でデプロイのための処理を開始してくれます。
 ![](https://storage.googleapis.com/zenn-user-upload/2dd397be05f5-20230721.png)
-10. この画面になったら成功！画面の画像をクリックすると、専用ChatGPTのURLにジャンプします。
+12. この画面になったら成功！画面の画像をクリックすると、専用ChatGPTのURLにジャンプします。
 ![](https://storage.googleapis.com/zenn-user-upload/35048a1a241c-20230721.png)
-11. できましたね！
+13. できましたね！
 ![](https://storage.googleapis.com/zenn-user-upload/fa795e147e86-20230721.png)
 
 Basic認証を追加したかったらそのようにできるみたいなので、そこらへんはご自身で設定してください。
