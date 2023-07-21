@@ -4,6 +4,7 @@ emoji: "👻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["ChatGPT","Vercel","Nextjs"]
 published: false
+publication_name: "vfa"
 ---
 
 # こんにちは
