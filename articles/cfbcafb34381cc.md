@@ -3,7 +3,7 @@ title: "社内専用のChatGPTをChatbotUIを使って実現してみた"
 emoji: "👻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["ChatGPT","Vercel","Nextjs"]
-published: false
+published: true
 publication_name: "vfa"
 ---
 
@@ -17,7 +17,7 @@ publication_name: "vfa"
 # 社内ChatGPTを構築しよう
 そこで、社内専用のChatGPTを使うことで、社外にデータが漏れないようにしたいですよね。
 
-ChatGPTに入力したデータを、ChatGPTの学習に利用されないようにするには、前回ご紹介した通り、[オプトアウト申請](https://zenn.dev/vfa/articles/7b18deeb385e41)をする必要がありますし、さらに厳重にやるとなると、[Microsoft OpenAI Service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)からAPI Keyを発行することで、もっとプライバシーを保護できます。
+ChatGPTに入力したデータを、ChatGPTの学習に利用されないようにするには、前回ご紹介した通り、[オプトアウト申請](https://zenn.dev/vfa/articles/7b18deeb385e41)をする必要がありますし、さらに厳重にやるとなると、[Microsoft OpenAI Service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)からAPI Keyを発行することで、もっとセキュリティーを安全にできます。
 
 今回は、簡単のため、Azureではなく、OpenAIからAPI keyを発行してやってみました。また、ローカル環境でやったあとに、Vercelを使ってデプロイしました。
 Dockerを使う方法も提供されていますね。
