@@ -14,7 +14,7 @@ https://twitter.com/himara2/status/1791060681984495624
 
 しかし、コストが1回$1と書かれておられまして、もっとなにか工夫をすればコストを下げられるのでは？と思い、個人的に試してみようかなとなりまして
 
-そこで、zennに限らずに、かつAIにおすすめの記事をリコメンドさせるところからGPTにさせればいいのでは？と思いå、Google Apps Script(GAS,役割:js)とGoogle Drive(役割:storage)だけでAIラジオを作ってみたので、その話を書きます。
+また、完全に同じことをするわけにもいかないので、zennに限らずに、かつAIにおすすめの記事をリコメンドさせるところからGPTにさせればいいのでは？と思いå、Google Apps Script(GAS,役割:js)とGoogle Drive(役割:storage)だけでAIラジオを作ってみたので、その話を書きます。
 ↓作ったのはこちら↓
 https://www.youtube.com/playlist?list=PLlLMystd2WB0soKkXTflSJ56cLCutU5v_
 
